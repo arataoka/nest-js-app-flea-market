@@ -1,0 +1,26 @@
+### CREATE
+POST http://localhost:3000/items
+content-type: application/json
+
+{
+  "id": "3",
+  "name": "name",
+  "price": "price",
+  "description": "description"
+}
+
+### GETALL
+GET http://localhost:3000/items
+content-type: application/json
+
+### GETSINGLE
+GET http://localhost:3000/items/2
+content-type: application/json
+
+### UPDATE
+PATCH http://localhost:3000/items/3
+content-type: application/json
+
+### DELETE
+DELETE http://localhost:3000/items/3
+content-type: application/json
